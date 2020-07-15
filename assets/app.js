@@ -9,6 +9,9 @@ const contentHolder = document.getElementById('content')
 const postURL = 'http://localhost:8000'
 const getURL = 'http://localhost:8000/all'
 
+// Personal API Key for OpenWeatherMap API
+const apiKey = '&appid=9f15e45060210ec849a698b3298f0bed&units=imperial';
+
 // Dynamically create a new JS date instance
 let d = new Date();
 let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
